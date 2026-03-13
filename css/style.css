@@ -18,6 +18,10 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  background-image: url("webback1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header h1 {
