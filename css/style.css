@@ -13,15 +13,12 @@ body {
 }
 
 /* Header */
-body, html {
+html {
   height: 100%;
 }
 
-header {
-  /*background-color: #4CAF50;*/
-  color: black;
-  text-align: center;
-  background-image: url("../images/webback1.jpg") no-repeat center center fixed;
+body {
+  background-image: url("../images/webback1.jpg");
 
   /* Full height */
   height: 100%;
@@ -30,6 +27,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+header {
+  /*background-color: #4CAF50;*/
+  color: black;
+  text-align: center;
+  
 }
 
 header h1 {
