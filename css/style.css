@@ -13,15 +13,22 @@ body {
 }
 
 /* Header */
+body, html {
+  height: 100%;
+}
+
 header {
   /*background-color: #4CAF50;*/
   color: black;
-  padding: 60px;
   text-align: center;
   background-image: url("../images/webback1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
