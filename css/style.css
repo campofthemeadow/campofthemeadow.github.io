@@ -19,8 +19,7 @@ header {
   padding: 20px;
   text-align: center;
   background-image: url("../images/webback1.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
